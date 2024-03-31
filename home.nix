@@ -39,18 +39,12 @@
    # Git
    programs.git = {
      enable = true;
-#     package = pkgs.gitFull;
-#     config.credential.helper = "libsecret";
      userName = "benjamin-burges";
      userEmail = "b.burges@hotmail.com";
      extraConfig = {
        init.defaultBranch = "master";
-#       credential.helper = "${
-#         pkgs.git.override { withLibsecret = true; }
-#       }/bin/git-credential-libsecret";
      };
    };
-
 
   home.sessionVariables = {
     EDITOR = "vim";
