@@ -148,7 +148,8 @@
   tldr
   neovim
   libsecret
- 
+  lazygit
+
  # Terminals
   alacritty
 
